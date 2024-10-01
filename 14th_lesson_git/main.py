@@ -1,8 +1,9 @@
-def demo_example():
-    # TODO...
-    # WIP.... work in progress
+def demo_map():
+    list1 = [1, 2, 3, 4, 5]
+    list2 = [5, 4, 3, 2, 0]
 
-    pass
+    list_of_powers = list(map(pow, list1, list2))
+    print(list_of_powers)
 
 
 def demo_zip():
@@ -16,7 +17,9 @@ def demo_zip():
 def main():
     # print("Hello_main")
     demo_zip()
+    demo_map()
 
 if __name__ == '__main__':
     main()
 
+print("ok")
