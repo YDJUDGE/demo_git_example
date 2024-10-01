@@ -14,6 +14,12 @@ def demo_zip():
     for v1, v2 in zip(values1, values2):
         print("v1 = ", v1, "v2 = ", v2, "sum = ", v1 + v2)
 
+    values3 = list(range(20, -7, -4))
+    print("-" * 10)
+
+    for v1, v2, v3 in zip(values1, values2, values3):
+        print("v1 = ", v1, "v2 = ", v2, "v3 =", v3, "sum = ", v1 + v2 + v3)
+
 def main():
     # print("Hello_main")
     demo_zip()
